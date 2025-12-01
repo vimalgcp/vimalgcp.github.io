@@ -8,7 +8,7 @@
 
 ## 👨‍💻 About Me
 
-I am a **Senior Backend Engineer** with over **10+ years of experience** specializing in:
+I am a **Senior Backend Engineer** with over **14+ years of experience** specializing in:
 
 - Backend development using **Node.js, NestJS, Fastify, Express.js**
 - Microservices architecture and distributed systems
