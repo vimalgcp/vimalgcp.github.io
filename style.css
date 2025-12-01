@@ -1,281 +1,130 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width,initial-scale=1" />
-		<title>ELAMBARATHI VIMAL KANNAN — Resume</title>
-
-		<link rel="stylesheet" href="style.css" />
-		<!-- print stylesheet -->
-		<link rel="stylesheet" href="print.css" media="print" />
-	</head>
-	<body>
-		<div class="page">
-			<!-- Header -->
-			<header class="header">
-				<h1 class="name">ELAMBARATHI VIMAL KANNAN</h1>
-				<p class="subtitle">
-					Senior Backend Engineer | Microservices Specialist
-				</p>
-
-				<div class="contact">
-					<span>Mobile: +91-9566514222</span>
-					<span class="sep">|</span>
-					<span
-						>Email:
-						<a href="mailto:vimalgcp@gmail.com"
-							>vimalgcp@gmail.com</a
-						></span
-					>
-					<span class="sep">|</span>
-					<span
-						><a
-							href="https://www.linkedin.com/in/elambarathi-vimal-kannan"
-							target="_blank"
-							rel="noreferrer"
-							>linkedin.com/in/elambarathi-vimal-kannan</a
-						></span
-					>
-				</div>
-			</header>
-
-			<!-- SKILLS -->
-			<section class="section">
-				<div class="section-bar"><span>SKILLS</span></div>
-				<div class="section-body">
-					<ul class="bullets">
-						<li>
-							<strong>Languages & Frameworks:</strong> TypeScript,
-							JavaScript, Node.js, NestJS, Fastify, Express.js,
-							React.js
-						</li>
-						<li>
-							<strong>Databases:</strong> PostgreSQL, SQL, NoSQL
-						</li>
-						<li>
-							<strong>Cloud & DevOps:</strong> AWS (EC2, S3,
-							Lambda, API Gateway), Azure DevOps, Terraform, IaC,
-							Pivotal Cloud Foundry (PCF)
-						</li>
-						<li>
-							<strong>Caching & Messaging:</strong> Redis, Kafka
-						</li>
-						<li>
-							<strong>API & State Management:</strong> REST API,
-							GraphQL, Apollo Client
-						</li>
-						<li>
-							<strong>Authentication & Authorization:</strong>
-							JWT, Auth0, RBAC, PBAC
-						</li>
-						<li>
-							<strong>Testing & Code Quality:</strong> Jest, Unit
-							Testing, TDD, SonarQube, SonarCloud
-						</li>
-						<li>
-							<strong>Version Control:</strong> Git, GitHub,
-							GitLab, Bitbucket, Azure Repos
-						</li>
-						<li>
-							<strong>Reporting & Templating:</strong> Jasper
-							Reports, FreeMarker
-						</li>
-						<li><strong>Project Management:</strong> JIRA</li>
-						<li>
-							<strong>Others:</strong> Microservices, Static Web
-							Servers, Cron Jobs, Task Scheduling, HTML, CSS, XML,
-							XSLT, Perl, Adobe JavaScript
-						</li>
-					</ul>
-				</div>
-			</section>
-
-			<!-- EXPERIENCE -->
-			<section class="section">
-				<div class="section-bar">
-					<span>PROFESSIONAL EXPERIENCE</span>
-				</div>
-				<div class="section-body experience">
-					<div class="job">
-						<div class="job-left">
-							<h4 class="company">LTIMindtree — Chennai</h4>
-							<p class="role">
-								Senior Specialist – Software Engineering –
-								Backend Lead
-							</p>
-						</div>
-						<div class="job-right">Aug 2023 – Present</div>
-						<ul class="bullets">
-							<li>
-								Developed & optimized backend services using
-								NestJS, Fastify, and Express.js, reducing server
-								response time by 15%.
-							</li>
-							<li>
-								Implemented PostgreSQL integrations improving
-								efficiency by 20% via connection pooling.
-							</li>
-							<li>
-								Designed and developed BFF services with GraphQL
-								& Apollo Client to optimize data fetching.
-							</li>
-							<li>
-								Implemented a highly available Kafka messaging
-								system scaled to handle a 30% increase in
-								message volume.
-							</li>
-							<li>
-								Implemented Redis caching, decreasing average
-								API response time from 500ms to 100ms.
-							</li>
-							<li>
-								Developed secure JWT-based authentication and
-								integrated Auth0.
-							</li>
-							<li>
-								Deployed applications on AWS and on-premise
-								using Terraform for IaC.
-							</li>
-							<li>
-								Achieved 95% unit test coverage with Jest and
-								TDD principles.
-							</li>
-							<li>
-								Integrated SonarCloud and refactored legacy code
-								reducing codebase size by 15%.
-							</li>
-						</ul>
-					</div>
-
-					<hr class="job-sep" />
-
-					<div class="job">
-						<div class="job-left">
-							<h4 class="company">
-								COGNIZANT TECHNOLOGY SOLUTIONS — Chennai
-							</h4>
-							<p class="role">Sr. Project Associate</p>
-						</div>
-						<div class="job-right">Nov 2015 – Jun 2023</div>
-
-						<ul class="bullets">
-							<li>
-								Full-stack developer on Migration Dashboard
-								(Node.js, React.js, PostgreSQL, PCF).
-							</li>
-							<li>
-								Developed dashboards to control migration runs.
-							</li>
-							<li>
-								Led development of backend + frontend features.
-							</li>
-							<li>
-								Used GitHub + Jenkins + SonarQube for CI/CD and
-								coverage.
-							</li>
-							<li>
-								Created HTML → SVG automation in AWS Lambda
-								(Node.js).
-							</li>
-							<li>
-								Implemented JSON manipulation microservices.
-							</li>
-							<li>
-								Used FreeMarker for dynamic HTML, XML, InDesign,
-								EPUB output.
-							</li>
-							<li>
-								Frequent direct client interaction for
-								requirement gathering.
-							</li>
-						</ul>
-					</div>
-
-					<hr class="job-sep" />
-
-					<div class="job">
-						<div class="job-left">
-							<h4 class="company">
-								TRANSCEND CREATIVE SERVICES — Bangalore
-							</h4>
-							<p class="role">InDesign Programmer</p>
-						</div>
-						<div class="job-right">Jan 2014 – Nov 2015</div>
-
-						<ul class="bullets">
-							<li>
-								Saved 8 hours of manual work per day by creating
-								InDesign automation using Adobe JavaScript.
-							</li>
-							<li>
-								Automated indexing of chapter XHTML using Perl
-								scripting.
-							</li>
-							<li>
-								Reduced proofreading time from 4 hours to 1.5
-								hours by automation.
-							</li>
-						</ul>
-					</div>
-
-					<hr class="job-sep" />
-
-					<div class="job">
-						<div class="job-left">
-							<h4 class="company">
-								TNQ BOOKS AND JOURNALS — Chennai
-							</h4>
-							<p class="role">InDesign Programmer</p>
-						</div>
-						<div class="job-right">Dec 2011 – Jan 2014</div>
-
-						<ul class="bullets">
-							<li>
-								Layout design for Adobe InDesign books and
-								journals for publishers.
-							</li>
-							<li>
-								Automated image cropping and repeated tasks
-								using Adobe JavaScript & Perl.
-							</li>
-							<li>
-								Automated publishing workflow using XSLT/XML
-								reducing manual effort by 85%.
-							</li>
-						</ul>
-					</div>
-				</div>
-			</section>
-
-			<!-- CERTIFICATIONS -->
-			<section class="section">
-				<div class="section-bar"><span>CERTIFICATIONS</span></div>
-				<div class="section-body">
-					<p>
-						<strong
-							>Google Cloud Platform – Associate Cloud
-							Engineer</strong
-						>
-						<span class="cert-date">Nov 2020</span>
-					</p>
-				</div>
-			</section>
-
-			<!-- EDUCATION -->
-			<section class="section bottom">
-				<div class="section-bar"><span>EDUCATION</span></div>
-				<div class="section-body">
-					<!-- <p>
-						<strong>Bachelor of Computer Application (BCA)</strong>
-						— Bharathiar University (2021 – Present, Distance
-						Education)
-					</p> -->
-					<p>
-						<strong>Diploma in Computer Engineering</strong> — Anna
-						University (2006 – 2009) — 85%
-					</p>
-				</div>
-			</section>
-		</div>
-	</body>
-</html>
+:root{
+    --accent:#0B66B2;
+    --light:#eef5ff;
+    --text:#222;
+    --muted:#666;
+    --page-width:800px;
+  }
+  
+  body{
+    background:#f6f8fb;
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    padding:20px;
+    color:var(--text);
+  }
+  
+  .page{
+    width:var(--page-width);
+    margin:auto;
+    background:#fff;
+    padding:30px;
+    border-radius:8px;
+    box-shadow:0 0 30px rgba(0,0,0,0.08);
+  }
+  
+  /* Header */
+  .header{
+    text-align:center;
+  }
+  
+  .name{
+    font-size:22px;
+    color:var(--accent);
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    margin:0;
+  }
+  
+  .subtitle{
+    margin-top:4px;
+    color:#555;
+    font-size:13px;
+    font-weight:600;
+  }
+  
+  .contact{
+    margin-top:6px;
+    font-size:11.5px;
+    color:var(--muted);
+  }
+  .contact a{
+    color:var(--accent);
+    text-decoration:none;
+  }
+  
+  /* Section */
+  .section{
+    margin-top:22px;
+  }
+  
+  .section-bar{
+    background:var(--accent);
+    color:white;
+    padding:6px 10px;
+    border-radius:3px;
+    font-weight:700;
+    font-size:12px;
+    text-transform:uppercase;
+  }
+  
+  .section-body{
+    padding:10px 5px;
+    font-size:12px;
+  }
+  
+  /* Bullets */
+  .bullets{
+    margin:6px 0 0 18px;
+    padding:0;
+    list-style:disc;
+  }
+  .bullets li{
+    margin-bottom:6px;
+    line-height:1.33;
+  }
+  
+  /* Experience job blocks */
+  .job{
+    margin-bottom:14px;
+  }
+  
+  .job-left{
+    width:70%;
+    display:inline-block;
+  }
+  .job-right{
+    width:28%;
+    display:inline-block;
+    text-align:right;
+    color:var(--muted);
+    font-size:11px;
+  }
+  
+  .company{
+    margin:0;
+    font-size:13px;
+    color:#0a4a7a;
+    font-weight:700;
+  }
+  
+  .role{
+    margin:0;
+    font-size:12px;
+    color:#666;
+    font-weight:600;
+  }
+  
+  .job-sep{
+    height:1px;
+    background:#e6e6e6;
+    border:0;
+    margin:12px 0;
+  }
+  
+  .cert-date{
+    float:right;
+    color:var(--muted);
+    font-size:11px;
+  }
+  
